@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #43365277;
+    color: #ffffff;
+    border:  2px solid #410364;
+}
+
+/* Header */
+.header-container {
+    background-color: #4a90e2;
+    color: rgb(173, 171, 171);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #357ab7;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #c5c1c1;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0f0018;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #8d8a8a;
+}
+
+/* Headings */
+h2 {
+    color: #a8a4a4;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-bottom:  2px solid #410364;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+#exitButton {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0f0018;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#exitButton:hover {
+    background-color: #410364;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .container {
+        padding: 15px;
+    }
+}
+
+nav ul li a{
+    color: #000000;
+    font-weight: 1000;
+    font-size: 25px;
+    left: 47%;
+    text-transform: capitalize;
+    justify-content: content-distribution; 
+    text-decoration: none;
+    position: relative;
+    text-shadow: 0 0 10px rgba(0 , 0, 0, .3); 
+}
